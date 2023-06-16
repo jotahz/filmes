@@ -7,8 +7,8 @@ const imagem = Math.floor(Math.random() * 4 + 1);
 export default function BannerMovies(){
         return(
                 <>
-                <Text style = {styles.textBanner}>Em cartaz</Text>
-                <Image style ={styles.imageBanner} source = {require(`../../Img/${imagem}.jpg`)} />
+                <Text style = {styles.textBanner}>Em Destaque</Text>
+                <Image style ={styles.imageBanner} source = {require(`../../Img/${imagem}.jpeg`)} />
                 </>
                 
         );

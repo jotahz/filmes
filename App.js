@@ -25,7 +25,11 @@ export default function App() {
         <CardMovies
         titulo = {item.nome}
         imagem = {item.imagem}
-        nota = {item.nota}
+        tamanho = {item.tamanho}
+        preço = {item.preço}
+        modelo = {item.modelo}
+        sexo = {item.sexo}
+        cor = {item.cor}
         >
 
         </CardMovies>
@@ -47,3 +51,5 @@ const styles = StyleSheet.create({
     
   },
 });
+
+
